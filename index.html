@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Créez vos cartes de Noël !</title>
+</head>
+
+<body>
+    <div class="container bg">
+        <div class="textUp">Coucou</div>
+        <div class="image"><img class="dynimg" src="assets/img/santa.png"></div>
+        <div class="textDown">tu veux voir ma ...</div>
+    </div>
+
+    <div class="option">
+
+        <form action="" method="post">
+
+            <span class="error"></span>
+
+            <fieldset>
+                <legend>Choisissez une police de caractère : </legend>
+            
+                <div>
+                  <input type="radio" id="roboto" name="font" value="roboto" checked>
+                  <label for="roboto" class="roboto">Roboto</label>
+                </div>
+            
+                <div>
+                  <input type="radio" id="times" name="font" value="times">
+                  <label for="times" class="times">Times</label>
+                </div>
+            
+                <div>
+                  <input type="radio" id="trebuchet" name="font" value="trebuchet">
+                  <label for="trebuchet" class="trebuchet">Trebuchet</label>
+                </div>
+            </fieldset>
+
+            <div>
+                <label for="colorWell">Choisissez la couleur de ce texte :</label>
+                <input type="color" id="colorWell">
+            </div>
+            <br>
+
+            <div>
+                <label for="inputText">Saisissez le texte qui s'affichera en haut de la carte : </label>
+                <input type="text" id="inputTextUp" name="chooseUp">
+            </div>
+
+            <fieldset class="circletosquare">
+                <legend>Choisissez un fond</legend>
+
+                <div>
+                    <img class="bg1" alt="" src="assets/img/backgrounds/mini/annie-spratt-ewbFRHOKxxI-unsplash.jpg">
+                </div>
+
+                <div>
+                    <img class="bg2" alt="" src="assets/img/backgrounds/mini/markus-spiske-E7qI_Jqv4Dw-unsplash.jpg">
+                </div>
+
+                <div>
+                    <img class="bg3" alt="" src="assets/img/backgrounds/mini/rinck-content-studio-tZWwUBhVJag-unsplash.jpg">
+                </div>
+
+            </fieldset>
+
+            <fieldset class="zoomin">
+                <legend>Choisissez une image</legend>
+
+                <div>
+                    <img class="img1" alt="" src="assets/img/mini/gift.png">
+                </div>
+
+                <div>
+                    <img class="img2" alt="" src="assets/img/mini/santa.png">
+                </div>
+
+                <div>
+                    <img class="img3" alt="" src="assets/img/mini/xmastree.png">
+                </div>
+            </fieldset>
+
+            <div>
+                <label for="">Saisissez le texte qui s'affichera en bas de la carte :</label><br/>
+                <input type="text" id="inputTextDown" name="chooseDown">
+            </div>
+
+        </form>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
